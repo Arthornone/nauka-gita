@@ -1,0 +1,194 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic);
+* {
+	box-sizing: border-box;	
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	background-color:#282627;
+}
+.row1:before, .row1:after {
+    content: " ";
+    display: table;
+}
+.row1:after {
+    clear: both;
+}
+header {
+	height:50px;
+	background-color:#413F40;	
+}
+header > nav img {
+  padding: 10px 0;
+}
+header>nav ul {
+	float:right;
+	margin:0;
+	padding:0;
+	list-style-type: none;
+}
+header>nav ul>li{
+	display:inline-block;
+}
+header>nav ul>li>a {
+	height:50px;
+	padding:15 20px;
+	display:block;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase
+}
+header>nav ul>li:hover {
+	background-color:#484848;
+}
+
+.about {
+	color:white;	
+}
+.container {
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1200px;
+	
+}
+.hero {
+	background-image: url(https://www.proform.eu/_gfx_file/Proform_PDA008_DC4134_01_09_00_00_K_A_sc000v1_3_x.jpg);
+	height:600px;
+	width:1200px;
+}
+.slogan {
+	color:white;
+	float:right;
+	background-color: rgba(44, 44, 43, 0.5);
+	max-width:400px;
+	margin: 400 0 0 0;
+	padding: 20 0 20 50;
+}
+.icons {
+	background-color:white;
+}
+.fas {
+	margin-top:50px;
+	margin-left:125px;
+	background-color:#282627;
+	font-size:60px;
+	color: white;
+	padding: 30px;
+}
+.letters {
+	text-align: center;
+	color: #282627;	
+}
+.featured{
+	background-color:white;
+	color: #282627;
+	text-align: center;
+}
+section>div>div>h1 {
+	font-size:38px;
+	padding-top:50px;
+}
+section>div>div>p {
+	margin-bottom:100px;
+	margin-left:350px;
+	text-align: center;
+	font-size:12px;
+	max-width: 500px;
+}
+section>div>div>div>img	{
+	height: 500px;
+    width: 100%;	
+}
+.image {
+  width: 100%;
+  background-color: gray;
+}
+.object-fit_cover { 
+  object-fit: cover; 
+}
+.row::before, .row::after {
+	content: "";
+	display: table;
+	clear: both;	
+}
+[class*="col-"] {
+	float: left;
+	min-height: 1px;
+	padding: 10px;
+}
+.col-1 {
+	width:8.33%;	
+}
+.col-2 {
+	width:16.66%;	
+}
+.col-3 {
+	width:25%;	
+}
+.col-4 {
+	width:33.33%;	
+}
+.col-5 {
+	width:41.66%;
+}
+.col-6 {
+	width:50%;
+}
+.col-7 {
+	width:58.33%;
+}
+.col-8 {
+	width:66.66%;
+}
+.col-9 {
+	width:75%;	
+}
+.col-10 {
+	width:83.33%;
+}
+.col-11 {
+	width:91.66%;
+}
+.col-12 {
+	width:100%;
+}
+.col-offset-0 {
+	margin-left: 0;
+}
+.col-offset-1 {
+	margin-left: 8.33%;
+}
+.col-offset-2 {
+	margin-left: 16.66%;
+}
+.col-offset-3 {
+	margin-left: 25%;
+}
+.col-offset-4 {
+	margin-left: 33.33%;
+}
+.col-offset-5 {
+	margin-left: 41.66%;
+}
+.col-offset-6 {
+	margin-left: 50%;
+}
+.col-offset-7 {
+	margin-left: 58.33%;
+}
+.col-offset-8 {
+	margin-left: 66.66%;
+}
+.col-offset-9 {
+	margin-left: 75%;
+}
+.col-offset-10 {
+	margin-left: 83.33%;
+}
+.col-offset-11 {
+	margin-left: 91.66%;
+}
+footer	{
+	text-align:center;
+	font-size: 20px;
+}
